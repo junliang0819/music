@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+    <!-- qq音乐播放器 -->
+    <script src="https://y.gtimg.cn/music/h5/player/player.js?max_age=2592000"></script>
+    <title>网难云音乐</title>
+    <script>
+      if ('addEventListener' in document) {
+        document.addEventListener('DOMContentLoaded', function() {
+          FastClick.attach(document.body);
+        }, false);
+      }
+       var modernBrowser = (
+         'fetch' in window &&
+         'assign' in Object
+       );
+
+       if ( !modernBrowser ) {
+         var scriptElement = document.createElement('script');
+
+         scriptElement.async = false;
+         scriptElement.src = '';
+         document.head.appendChild(scriptElement);
+       }
+     </script>
+</head>
+<body>
+    <div id="app">
+
+    </div>
+<script type="text/javascript" src="commons.f54784f1d6f81a39b3d7.js"></script><script type="text/javascript" src="vendors~main.51cb36e144f3d15cf4b8.js"></script><script type="text/javascript" src="main.5b8def74520a3fb09e32.js"></script><script type="text/javascript" src="vendor.593503a9762c0ed8a840.js"></script><script type="text/javascript" src="vendors~polyfills.fa0a02dd79f77c045e68.js"></script></body>
+</html>
